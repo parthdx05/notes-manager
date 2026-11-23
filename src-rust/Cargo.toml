@@ -1,0 +1,11 @@
+[package]
+name = "notes-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk4 = { version = "0.7", features = ["v4_6"] }
+libadwaita = "0.5"
+rusqlite = { version = "0.32", features = ["bundled"] }
+uuid = { version = "1.4", features = ["v4"] }
+chrono = "0.4"
