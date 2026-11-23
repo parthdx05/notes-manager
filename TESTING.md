@@ -73,13 +73,8 @@ NOTES_MANAGER_DB=/tmp/notes-test.db cargo run
   `pkg-config --modversion gtk4 libadwaita-1`.
 
 **C compiler errors while building `libsqlite3-sys`**
-- Install a C compiler (`build-essential` on Debian/Ubuntu).
+- Install a C compiler.
 
 **"Could not open the database" in the status bar**
 - The database path is not writable. Check `NOTES_MANAGER_DB` or the
   permissions of your user data directory. Notes are not saved in this state.
-
-## Reporting issues
-
-Run the application from a terminal to capture error output, note the steps to
-reproduce, and include your OS and the output of `pkg-config --modversion gtk4 libadwaita-1`.
