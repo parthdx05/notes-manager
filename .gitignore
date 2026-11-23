@@ -1,2 +1,11 @@
-build
-src-rust/target
+target
+<<<<<<< HEAD
+<<<<<<< HEAD
+*.json
+
+=======
+>>>>>>> e231eec (moved rust code for better presentation)
+=======
+*.json
+
+>>>>>>> c0bf33b (updated gitignore)
