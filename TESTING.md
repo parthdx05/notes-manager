@@ -8,7 +8,6 @@ query), updates, deleting a list of notes down to one and then to zero, and
 deleting several notes at once.
 
 ```bash
-cd src-rust
 cargo test
 ```
 
@@ -20,7 +19,6 @@ compiler and the GTK4 development libraries; see the README).
 Use a scratch database so your real notes are untouched:
 
 ```bash
-cd src-rust
 NOTES_MANAGER_DB=/tmp/notes-test.db cargo run
 ```
 

@@ -39,7 +39,6 @@ sudo pacman -S --needed base-devel gtk4 libadwaita
 ## Build and Run
 
 ```bash
-cd src-rust
 cargo run --release
 ```
 
